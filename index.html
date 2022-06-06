@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A viagem de Chihiro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/svg-inject.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="./svgs/logo.svg" alt="Studio Ghibli" class="logo" />
+
+        <ul>
+          <li>
+            <a href="" target="_blank">
+              <img
+                src="./svgs/icon-instagram.svg"
+                alt="Meu perfil no Instragram"
+                onload="SVGInject(this)"
+              />
+            </a>
+          </li>
+          <li>
+            <a href=" target="_blank">
+              <img
+                src="./svgs/icon-twitter.svg"
+                alt="Meu perfil no Twitter"
+                onload="SVGInject(this)"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="" target="_blank">
+              <img
+                src="./svgs/icon-youtube.svg"
+                alt="Meu perfil no Youtube"
+                onload="SVGInject(this)"
+              />
+            </a>
+          </li>
+        </ul>
+      </header>
+
+      <main class="hero">
+        <section
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
+          <h2>HAYAO MIYAZAKI</h2>
+          <h1>A VIAGEM DE CHIHIRO</h1>
+          <p>
+            Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que
+            a desobedecem são transformados em animais.
+          </p>
+
+          <div class="buttons-wrapper">
+            <a href="https://www.netflix.com/br/title/60023642" target="_blank" class="btn filled">
+              <span>Assistir agora</span>
+            </a>
+            <a href="https://www.youtube.com/watch?v=SgZI655GgHk"  target="_blank" class="btn outline">
+              <span>Assista o trailer</span>
+            </a>
+          </div>
+        </section>
+        <section class="illustration">
+          <img
+            src="./svgs/chihiro-left.svg"
+            alt="chihiro left"
+            class="chihiro-left"
+          />
+
+          <img
+            src="./svgs/chihiro-right.svg"
+            alt="chihiro right"
+            class="chihiro-right"
+          />
+        </section>
+      </main>
+    </div>
+    
+
+    <script>
+      AOS.init();
+    </script>
+    
+  </body>
+</html>
